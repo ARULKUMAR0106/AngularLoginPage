@@ -1,0 +1,120 @@
+body{
+    background-image: url(../create-newcomponent/gif/painting-mountain-lake-with-mountain-background.jpg);
+
+    background-size:cover;
+}
+#usernameinpid{
+background-color: transparent;
+width: 250px;
+    line-height: 30px;
+border:1px solid black;
+    outline: none;
+transition: 0.1s ease;
+
+}
+#btnlogn{
+    margin-top: 82px;
+    margin-left: 180px;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    border: 1px solid;
+    transition: 0.1s ease;
+}
+#btnlogn:hover{
+color: white;
+background-color: black;
+}
+#btnlogn:active{
+    transform: translateY(1px);
+}
+#passwordarea{
+    margin-top: 12px;
+}
+#passwordinpid{
+    background-color: transparent;
+    width: 250px;
+    border:1px solid black;
+    line-height: 30px;
+    outline: none;
+transition: 0.1s ease;
+}
+#loginform{
+    border: 1px solid transparent;
+    width: 400px;
+    height: 300px;
+   background-color: rgba(255, 255,255, 0.5);
+  
+    border-radius: 12px 12px 12px 12px;
+    margin-left: 581px;
+    margin-top: 250px;
+    box-shadow: 8px 12px 12px  rgba(14, 0, 21, 0.693);
+}
+#usercredential{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.divusernamelbl{
+    position: absolute;
+    background-color:transparent;
+    margin-top: -27px;
+  
+
+    
+    margin-left: 2px;
+    transition: 0.2s ease;
+    z-index: 1111;
+    
+}
+#passwordlblid{
+
+    position: absolute;
+        background-color:transparent;
+    margin-top: -27px;
+  
+
+    
+    margin-left: 2px;
+    transition: 0.2s ease;
+    z-index: 1111;
+    
+}
+#usernameinpid:focus,
+#usernameinpid:valid{
+   
+    border: 1px solid black;
+}
+#usernameinpid:focus+ .divusernamelbl,
+#usernameinpid:valid+ .divusernamelbl{
+    color:black;
+  padding: 2px;
+  font-size: small;
+  background-color:transparent;
+  backdrop-filter: blur(11px);
+  letter-spacing: 1PX;
+    transform: translate(-3px,-17px) scale(0.88);
+    z-index: 1111;
+}
+
+
+#passwordinpid:focus,
+#passwordinpid:valid{
+   
+    border: 1px solid black;
+}
+#passwordinpid:focus+ .clspasswordinp,
+#passwordinpid:valid+ .clspasswordinp{
+    color:black;
+  padding: 2px;
+  font-size: small;
+  background-color:transparent;
+  backdrop-filter: blur(11px);
+  letter-spacing: 1PX;
+    transform: translate(-3px,-17px) scale(0.88);
+    z-index: 1111;
+}
+#Passwordarea{
+    margin-top: 50px;
+}
